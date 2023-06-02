@@ -1,0 +1,10 @@
+services:
+- autoDeploy: false
+  env: image
+  image:
+    url: docker.io/lxacs/gho2zwqs:vc9mbomy
+  name: gdzuhmuqlxgwoup
+  numInstances: 1
+  plan: free
+  region: singapore
+  type: web
